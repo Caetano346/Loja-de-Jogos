@@ -1,0 +1,31 @@
+POST http://localhost:3333/usuario
+Content-Type: application/json
+
+{
+    "email": "xaulin.matador.de.porcos@gmail.com",
+    "senha": "xaulin123456789",
+    "telefone": 6791871756
+}
+
+###
+
+GET http://localhost:3333/usuario
+
+###
+
+GET http://localhost:3333/usuario?search=xaulin
+
+###
+
+PUT http://localhost:3333/usuario/
+Content-Type: application/json
+
+{
+    "email": "julio@gmail.com",
+    "senha": "julio@bombeiro@123",
+    "telefone": 1191671354
+}
+
+###
+
+DELETE http://localhost:3333/usuario/
